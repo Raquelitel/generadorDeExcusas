@@ -26,12 +26,6 @@ let when = [
   "durante la mañana"
 ];
 
-let foto = [
-  "img/whippet.jpeg",
-  "img/tortuga.jpeg",
-  "img/gato.jpeg",
-  "img/loro.jpeg"
-];
 let excusa = "";
 function generadorExcusa() {
   let random = el => el[Math.floor(Math.random() * (el.length - 1))];
